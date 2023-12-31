@@ -1,0 +1,15 @@
+<!-- your_app_name/templates/your_app_name/event_list.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cybersecurity Events</title>
+</head>
+<body>
+    <h1>Cybersecurity Events</h1>
+    <ul>
+        {% for event in events %}
+            <li>{{ event }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
